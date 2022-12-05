@@ -1,0 +1,6 @@
+export STDCELLLIB="../"
+export OPENLANE_ROOT="/home/philipp/libresilicon/gf180-teststructures/dependencies/openlane_src"
+export CARAVEL="/home/philipp/libresilicon/gf180-teststructures"
+export CARAVEL_ROOT="/home/philipp/libresilicon/gf180-teststructures/caravel"
+export PDK_ROOT="/home/philipp/libresilicon/gf180-teststructures/dependencies/pdks"
+export PDK="gf180mcuC"

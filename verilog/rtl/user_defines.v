@@ -25,20 +25,20 @@
 // Authoritive source of these MODE defs is: caravel/verilog/rtl/user_defines.v
 // Useful GPIO mode values.  These match the names used in defs.h.
 //
-`define GPIO_MODE_MGMT_STD_INPUT_NOPULL    10'h0403
-`define GPIO_MODE_MGMT_STD_INPUT_PULLDOWN  10'h0c01
-`define GPIO_MODE_MGMT_STD_INPUT_PULLUP    10'h0801
-`define GPIO_MODE_MGMT_STD_OUTPUT          10'h1809
-`define GPIO_MODE_MGMT_STD_BIDIRECTIONAL   10'h1801
-`define GPIO_MODE_MGMT_STD_ANALOG          10'h000b
+`define GPIO_MODE_MGMT_STD_INPUT_NOPULL    13'h0403
+`define GPIO_MODE_MGMT_STD_INPUT_PULLDOWN  13'h0c01
+`define GPIO_MODE_MGMT_STD_INPUT_PULLUP    13'h0801
+`define GPIO_MODE_MGMT_STD_OUTPUT          13'h1809
+`define GPIO_MODE_MGMT_STD_BIDIRECTIONAL   13'h1801
+`define GPIO_MODE_MGMT_STD_ANALOG          13'h000b
 
-`define GPIO_MODE_USER_STD_INPUT_NOPULL    10'h0402
-`define GPIO_MODE_USER_STD_INPUT_PULLDOWN  10'h0c00
-`define GPIO_MODE_USER_STD_INPUT_PULLUP    10'h0800
-`define GPIO_MODE_USER_STD_OUTPUT          10'h1808
-`define GPIO_MODE_USER_STD_BIDIRECTIONAL   10'h1800
-`define GPIO_MODE_USER_STD_OUT_MONITORED   10'h1802
-`define GPIO_MODE_USER_STD_ANALOG          10'h000a
+`define GPIO_MODE_USER_STD_INPUT_NOPULL    13'h0402
+`define GPIO_MODE_USER_STD_INPUT_PULLDOWN  13'h0c00
+`define GPIO_MODE_USER_STD_INPUT_PULLUP    13'h0800
+`define GPIO_MODE_USER_STD_OUTPUT          13'h1808
+`define GPIO_MODE_USER_STD_BIDIRECTIONAL   13'h1800
+`define GPIO_MODE_USER_STD_OUT_MONITORED   13'h1802
+`define GPIO_MODE_USER_STD_ANALOG          13'h000a
 
 // The power-on configuration for GPIO 0 to 4 is fixed and cannot be
 // modified (allowing the SPI and debug to always be accessible unless
